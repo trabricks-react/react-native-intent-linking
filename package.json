@@ -2,7 +2,7 @@
 {
   "name": "react-native-linking-with-intent",
   "version": "1.0.0",
-  "description": "intent:// enabled to Linking",
+  "description": "You can run an intent scheme (intent://) in Linking.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
