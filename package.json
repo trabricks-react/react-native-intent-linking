@@ -1,7 +1,7 @@
 
 {
-  "name": "react-native-linking-with-intent",
-  "version": "1.0.0",
+  "name": "react-native-intent-linking",
+  "version": "1.0.3",
   "description": "You can run an intent scheme (intent://) in Linking.",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,17 @@
     "Linking",
     "Intent"
   ],
+  "homepage": "https://github.com/trabricks/react-native-intent-linking#readme",
+  "bugs": {
+    "url": "https://github.com/trabricks/react-native-intent-linking/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trabricks/react-native-intent-linking.git"
+  },
   "author": "Trabricks LLC",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "*"
-
   }
 }

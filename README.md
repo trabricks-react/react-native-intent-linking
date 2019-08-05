@@ -1,18 +1,18 @@
 
-# react-native-linking-with-intent
+# react-native-intent-linking
 You can run an intent scheme (intent://) in Linking.
 
 ## Getting started
-`$ npm install react-native-linking-with-intent --save`
+`$ npm install react-native-intent-linking --save`
 
-### Mostly automatic installation
-`$ react-native link react-native-linking-with-intent`
+### Mostly automatic installation (<= 0.59)
+`$ react-native link react-native-intent-linking`
 
 
 ## Usage
 
 ```javascript
-import Linking from 'react-native-linking-with-intent';
+import Linking from 'react-native-intent-linking';
 
 let supported = await Linking.canOpenURL('intent://~~~');
 await Linking.openURL('intent://~~~');
